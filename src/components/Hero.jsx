@@ -27,13 +27,13 @@ const Hero = () => {
   useGSAP(() => {
     gsap.to('#hero', {
       opacity: 1,
-      delay: 5
+      delay: 3
     })
 
     gsap.to('#cta', {
       opacity: 1,
       y: -50,
-      delay: 5
+      delay: 3
     })
   }, [])
 
@@ -49,8 +49,8 @@ const Hero = () => {
       </div>
 
       <div id="cta" className='flex flex-col items-center opacity-0 translate-y-20'>
-        <a href="#highlights" className='btn font-semibold'>JOGUE DE GRAÇA</a>
-        <p className='font-normal text-xl'>Conheça os campeões!</p>
+        <a href='https://signup.leagueoflegends.com/pt-br/signup/redownload' target='_blank' className='btn font-semibold'>JOGUE DE GRAÇA</a>
+        <a href="#highlights" className='font-normal text-xl hover:underline hover:decoration-[#29d5d8]'>Conheça os campeões!</a>
       </div>
     </section>
   )
