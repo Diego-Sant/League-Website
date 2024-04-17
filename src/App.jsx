@@ -5,7 +5,7 @@ import Highlights from './components/Highlights'
 const App = () => {
 
   return (
-    <main className="bg-[#1c1c1c]">
+    <main className="bg-[#111111]">
       <Navbar />
       <Hero />
       <Highlights />
