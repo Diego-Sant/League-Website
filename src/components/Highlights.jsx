@@ -1,7 +1,10 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
+
 import { FaRegPlayCircle } from "react-icons/fa"
 import { MdArrowOutward } from "react-icons/md"
+
+import VideoCarousel from "./VideoCarousel"
 
 const Highlights = () => {
   useGSAP(() => {
@@ -34,6 +37,7 @@ const Highlights = () => {
           </div>
         </div>
 
+        <VideoCarousel />
 
       </div>
     </section>
