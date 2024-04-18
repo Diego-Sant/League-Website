@@ -36,7 +36,7 @@ canvas {
   }
 }
 
-.hero-title {
+.hero-title, .textList-title {
   font-family: 'League', sans-serif;
 }
 
@@ -99,6 +99,10 @@ canvas {
 
   .hero-title {
     @apply text-center font-semibold text-3xl bg-gradient-to-r from-[#c8a155] via-[#c7a255] to-[#e3d587] text-transparent bg-clip-text border-[#000] opacity-0 max-md:mb-10
+  }
+
+  .textList-title {
+    @apply font-semibold bg-gradient-to-r from-[#c8a155] via-[#c7a255] to-[#e3d587] text-transparent bg-clip-text border-[#000] opacity-0
   }
 
   .hiw-title {
