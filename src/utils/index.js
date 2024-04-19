@@ -20,6 +20,13 @@ import highlightThirteenthmv from "/assets/videos/highlight-thirteenth.mp4";
 import exploremv from "/assets/videos/explore.mp4";
 import framemv from "/assets/videos/frame.mp4";
 
+import ireliaimg from "/assets/images/ireliaSquare.png";
+import aurelionimg from "/assets/images/aurelionSquare.png";
+import rivenimg from "/assets/images/rivenSquare.png";
+import pykeimg from "/assets/images/pykeSquare.png";
+import volibearimg from "/assets/images/volibearSquare.png";
+import sennaimg from "/assets/images/sennaSquare.png";
+
 import lol from "/assets/images/lol.svg";
 import search from "/assets/images/search.svg";
 import locale from "/assets/images/locale.svg";
@@ -27,10 +34,6 @@ import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
 
-import yellow from "/assets/images/yellow.jpg";
-import blue from "/assets/images/blue.jpg";
-import white from "/assets/images/white.jpg";
-import black from "/assets/images/black.jpg";
 import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
@@ -54,6 +57,13 @@ export const highlightThirteenthVideo = highlightThirteenthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
 
+export const irelia = ireliaimg;
+export const aurelion = aurelionimg;
+export const riven = rivenimg;
+export const pyke = pykeimg;
+export const volibear = volibearimg;
+export const senna = sennaimg;
+
 export const lolImg = lol;
 export const searchImg = search;
 export const localeImg = locale;
@@ -61,10 +71,6 @@ export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
 
-export const yellowImg = yellow;
-export const blueImg = blue;
-export const whiteImg = white;
-export const blackImg = black;
 export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;

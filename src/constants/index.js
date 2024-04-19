@@ -1,6 +1,5 @@
 import {
-    blackImg,
-    blueImg,
+  aurelion,
     highlightEighthVideo,
     highlightEleventhVideo,
     highlightFifthVideo,
@@ -14,8 +13,11 @@ import {
     highlightThirdVideo,
     highlightThirteenthVideo,
     highlightTwelfthVideo,
-    whiteImg,
-    yellowImg,
+    irelia,
+    pyke,
+    riven,
+    senna,
+    volibear,
   } from "../utils";
   
   export const navLists = ['O JOGO', 'CAMPEÕES', 'NOTÍCIAS', 'NOTAS DAS ATUALIZAÇÕES', 'COMUNIDADE', 'ESPORTS', 'UNIVERSO', 'SUPORTE', 'MAIS']
@@ -104,33 +106,193 @@ import {
   export const models = [
     {
       id: 1,
-      title: "iPhone 15 Pro in Natural Titanium",
-      color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
-      img: yellowImg,
+      title: "Irelia",
+      color: ["#972540"],
+      character: 'irelia'
     },
     {
       id: 2,
-      title: "iPhone 15 Pro in Blue Titanium",
-      color: ["#53596E", "#6395ff", "#21242e"],
-      img: blueImg,
+      title: "Irelia Lâminas Gélidas",
+      color: ["#5b8ae0"],
+      character: 'irelia'
     },
     {
       id: 3,
-      title: "iPhone 15 Pro in White Titanium",
-      color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
-      img: whiteImg,
+      title: "Irelia Aviadora",
+      color: ["#efcf8c"],
+      character: 'irelia'
     },
     {
       id: 4,
-      title: "iPhone 15 Pro in Black Titanium",
-      color: ["#454749", "#3b3b3b", "#181819"],
-      img: blackImg,
+      title: "Irelia Lâminas Noturnas",
+      color: ["#1a1818"],
+      character: 'irelia'
+    },
+    {
+      id: 5,
+      title: "PROJETO: Irelia de Prestígio",
+      color: ["#e5e4ea"],
+      character: 'irelia'
+    },
+    {
+      id: 6,
+      title: "Aurelion Sol",
+      color: ["#263097"],
+      character: 'aurelion'
+    },
+    {
+      id: 7,
+      title: "Aurelion Sol Senhor das Cinzas",
+      color: ["#5c381c"],
+      character: 'aurelion'
+    },
+    {
+      id: 8,
+      title: "Aurelion Sol Dragão da Tormenta",
+      color: ["#4ddfff"],
+      character: 'aurelion'
+    },
+    {
+      id: 9,
+      title: "Aurelion Sol Tinta Sombria",
+      color: ["#d92aa7"],
+      character: 'aurelion'
+    },
+    {
+      id: 10,
+      title: "Aurelion Sol Protetor de Porcelana",
+      color: ["#f1eee6"],
+      character: 'aurelion'
+    },
+    {
+      id: 11,
+      title: "Riven",
+      color: ["#5bc96a"],
+      character: 'riven'
+    },
+    {
+      id: 12,
+      title: "Riven Emissária da Luz",
+      color: ["#47ecff"],
+      character: 'riven'
+    },
+    {
+      id: 13,
+      title: "Riven Coelha de Batalha Prime",
+      color: ["#3f5929"],
+      character: 'riven'
+    },
+    {
+      id: 14,
+      title: "Riven Espada Valorosa de Prestígio",
+      color: ["#b28d59"],
+      character: 'riven'
+    },
+    {
+      id: 15,
+      title: "Riven Pacto Quebrado",
+      color: ["#e14549"],
+      character: 'riven'
+    },
+    {
+      id: 16,
+      title: "Pyke",
+      color: ["#163537"],
+      character: 'pyke'
+    },
+    {
+      id: 17,
+      title: "Pyke Lua Sangrenta",
+      color: ["#fe3137"],
+      character: 'pyke'
+    },
+    {
+      id: 18,
+      title: "Pyke PsyOps",
+      color: ["#393a59"],
+      character: 'pyke'
+    },
+    {
+      id: 19,
+      title: "Pyke Guerreiro das Cinzas",
+      color: ["#dfe1f6"],
+      character: 'pyke'
+    },
+    {
+      id: 20,
+      title: "Pyke Soul Fighter de Prestígio",
+      color: ["#e9a528"],
+      character: 'pyke'
+    },
+    {
+      id: 21,
+      title: "Volibear",
+      color: ["#dee7f4"],
+      character: 'volibear'
+    },
+    {
+      id: 22,
+      title: "Volibear Senhor do Trovão",
+      color: ["#2d2838"],
+      character: 'volibear'
+    },
+    {
+      id: 23,
+      title: "Volibear Dragão da Dualidade de Prestígio",
+      color: ["#ec6381"],
+      character: 'volibear'
+    },
+    {
+      id: 24,
+      title: "Volibear Tinta Sombria",
+      color: ["#e77e2d"],
+      character: 'volibear'
+    },
+    {
+      id: 25,
+      title: "Volibear Nevasca do Ártico",
+      color: ["#687cb6"],
+      character: 'volibear'
+    },
+    {
+      id: 26,
+      title: "Senna",
+      color: ["#9cdee0"],
+      character: 'senna'
+    },
+    {
+      id: 27,
+      title: "Senna True Damage de Prestígio",
+      color: ["#dbe4ee"],
+      character: 'senna'
+    },
+    {
+      id: 28,
+      title: "Senna Eclipse Lunar de Prestígio",
+      color: ["#5e51ad"],
+      character: 'senna'
+    },
+    {
+      id: 29,
+      title: "Senna Feiticeira",
+      color: ["#eb5cf4"],
+      character: 'senna'
+    },
+    {
+      id: 30,
+      title: "Senna Benção do Inverno",
+      color: ["#52d6fd"],
+      character: 'senna'
     },
   ];
   
-  export const sizes = [
-    { label: '6.1"', value: "small" },
-    { label: '6.7"', value: "large" },
+  export const characters = [
+    { img: irelia, value: "irelia" },
+    { img: aurelion, value: "aurelion" },
+    { img: riven, value: "riven" },
+    { img: pyke, value: "pyke" },
+    { img: volibear, value: "volibear" },
+    { img: senna, value: "senna" },
   ];
   
   export const footerLinks = [

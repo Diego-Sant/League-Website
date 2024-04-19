@@ -17,6 +17,22 @@ const VideoCarousel = () => {
         isPlaying: false
     })
 
+    const idToColorMap = {
+        0: '#9c3725',
+        1: '#3e80b1',
+        2: '#d041ea',
+        3: '#ce353b',
+        4: '#da43ce',
+        5: '#2e905f',
+        6: '#353f58',
+        7: '#302641',
+        8: '#fff281',
+        9: '#84f7fb',
+        10: '#e2bf94',
+        11: '#374180',
+        12: '#eb9b42'
+    };
+
     const [loadedData, setLoadedData] = useState([]);
 
     const { isEnd, isLastVideo, startPlay, videoId, isPlaying } = video;
@@ -24,7 +40,7 @@ const VideoCarousel = () => {
     useGSAP(() => {
         gsap.to('#slider', {
             transform: `translateX(${-100 * videoId}%)`,
-            duration: 2,
+            duration: 1,
             ease: 'power2.inOut'
         })
         
@@ -81,7 +97,7 @@ const VideoCarousel = () => {
 
                         gsap.to(span[videoId], {
                             width: `${currentProgress}%`,
-                            backgroundColor: 'white'
+                            backgroundColor: idToColorMap[videoId] || 'white',
                         })
                     }
                 },
@@ -112,6 +128,7 @@ const VideoCarousel = () => {
                 gsap.ticker.remove(animUpdate)
             }
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [videoId, startPlay])
 
     const handleProcess = (type, i) => {
@@ -142,10 +159,14 @@ const VideoCarousel = () => {
     }
       
     const handleVideoSelection = (index) => {
+        if (videoRef.current[videoId]) {
+            videoRef.current[videoId].pause();
+        }
+        
         setVideo((prevVideo) => ({
           ...prevVideo,
           videoId: index,
-          isPlaying: true, // Se desejar iniciar automaticamente ao selecionar um vídeo
+          isPlaying: true,
         }));
     };
 
@@ -181,7 +202,7 @@ const VideoCarousel = () => {
       </div>
 
       <div className="relative sm:flex-center flex-wrap mt-10">
-        <div className="flex-center py-5 px-7 bg-gray-300 backdrop-blur rounded-full">
+        <div className="flex-center flex-wrap gap-y-4 py-5 px-7 bg-gray-300 backdrop-blur rounded-full">
             {videoRef.current.map((_, i) => (
                 <span key={i} ref={(el) => (videoDivRef.current[i] = el)} className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative cursor-pointer" onClick={() => handleVideoSelection(i)}>
                     <span className="absolute h-full w-full rounded-full" ref={(el) => (videoSpanRef.current[i] = el)} />
