@@ -1,5 +1,10 @@
 import {
   aurelion,
+    //aurelionDT,
+    //aurelionPP,
+    aurelionSA,
+    //aurelionSC,
+    //aurelionTS,
     highlightEighthVideo,
     highlightEleventhVideo,
     highlightFifthVideo,
@@ -14,6 +19,11 @@ import {
     highlightThirteenthVideo,
     highlightTwelfthVideo,
     irelia,
+    //ireliaAV,
+    //ireliaLG,
+    //ireliaLN,
+    //ireliaPP,
+    ireliaSA,
     pyke,
     riven,
     senna,
@@ -108,60 +118,80 @@ import {
       id: 1,
       title: "Irelia",
       color: ["#972540"],
+      img: ireliaSA,
+      type: "image",
       character: 'irelia'
     },
     {
       id: 2,
       title: "Irelia Lâminas Gélidas",
       color: ["#5b8ae0"],
+      //video: ireliaLG,
+      type: "video",
       character: 'irelia'
     },
     {
       id: 3,
       title: "Irelia Aviadora",
       color: ["#efcf8c"],
+      //video: ireliaAV,
+      type: "video",
       character: 'irelia'
     },
     {
       id: 4,
       title: "Irelia Lâminas Noturnas",
       color: ["#1a1818"],
+      //video: ireliaLN,
+      type: "video",
       character: 'irelia'
     },
     {
       id: 5,
       title: "PROJETO: Irelia de Prestígio",
       color: ["#e5e4ea"],
+      //video: ireliaPP,
+      type: "video",
       character: 'irelia'
     },
     {
       id: 6,
       title: "Aurelion Sol",
       color: ["#263097"],
+      img: aurelionSA,
+      type: "image",
       character: 'aurelion'
     },
     {
       id: 7,
       title: "Aurelion Sol Senhor das Cinzas",
       color: ["#5c381c"],
+      //video: aurelionSC,
+      type: "video",
       character: 'aurelion'
     },
     {
       id: 8,
       title: "Aurelion Sol Dragão da Tormenta",
       color: ["#4ddfff"],
+      //video: aurelionDT,
+      type: "video",
       character: 'aurelion'
     },
     {
       id: 9,
       title: "Aurelion Sol Tinta Sombria",
       color: ["#d92aa7"],
+      //video: aurelionTS,
+      type: "video",
       character: 'aurelion'
     },
     {
       id: 10,
       title: "Aurelion Sol Protetor de Porcelana",
       color: ["#f1eee6"],
+      //video: aurelionPP,
+      type: "video",
       character: 'aurelion'
     },
     {
