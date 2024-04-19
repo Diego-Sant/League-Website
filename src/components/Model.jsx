@@ -61,42 +61,61 @@ const Model = () => {
 
         <div className="flex flex-col items-center mt-5">
             <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
-                
+
                 <ModelView
                     index={1}
                     groupRef={ireliaGroup}
                     gsapType="view1"
+                    controlRef={cameraControlIrelia}
+                    setRotationState={setIreliaRotation}
                     item={selectedModel}
+                    character={selectedCharacter}
+                    selectedModel={selectedModel}
                 />
                 <ModelView
                     index={2}
                     groupRef={aurelionGroup}
                     gsapType="view2"
+                    controlRef={cameraControlAurelion}
+                    setRotationState={setAurelionRotation}
                     item={selectedModel}
+                    character={selectedCharacter}
                 />
                 <ModelView
                     index={3}
                     groupRef={rivenGroup}
                     gsapType="view3"
+                    controlRef={cameraControlRiven}
+                    setRotationState={setRivenRotation}
                     item={selectedModel}
+                    character={selectedCharacter}
                 />
                 <ModelView
                     index={4}
                     groupRef={pykeGroup}
                     gsapType="view4"
+                    controlRef={cameraControlPyke}
+                    setRotationState={setPykeRotation}
                     item={selectedModel}
+                    character={selectedCharacter}
                 />
                 <ModelView
                     index={5}
                     groupRef={volibearGroup}
                     gsapType="view5"
+                    controlRef={cameraControlVolibear}
+                    setRotationState={setVolibearRotation}
                     item={selectedModel}
+                    character={selectedCharacter}
                 />
                 <ModelView
                     index={6}
                     groupRef={sennaGroup}
                     gsapType="view6"
+                    controlRef={cameraControlSenna}
+                    setRotationState={setSennaRotation}
                     item={selectedModel}
+                    character={selectedCharacter}
                 />
 
                 <Canvas className="w-full h-full" eventSource={document.getElementById('root')}
@@ -113,7 +132,7 @@ const Model = () => {
                         {models.filter((model) => model.character === selectedCharacter).map((item, i) => (
                             <li
                                 key={i}
-                                className="w-6 h-6 rounded-full mx-2 cursor-pointer"
+                                className="w-6 h-6 rounded-full mx-2 cursor-pointer hover:scale-110"
                                 style={{ backgroundColor: item.color[0] }}
                                 onClick={() => setSelectedModel(item)}
                             />
