@@ -28,7 +28,7 @@ import volibearimg from "/assets/images/volibearSquare.png";
 import sennaimg from "/assets/images/sennaSquare.png";
 
 import ireliaSplashArt from "/assets/images/ireliaSplashArt.jpg";
-//import ireliaLaminasGelidas from "/assets/videos/ireliaLaminasGelidas.mp4";
+import ireliaLaminasGelidas from "/assets/videos/ireliaLaminasGelidas.mp4";
 //import ireliaAviadora from "/assets/videos/ireliaAviadora.mp4";
 //import ireliaLaminasNoturnas from "/assets/videos/ireliaLaminasNoturnas.mp4";
 //import ireliaProjetoPrestigio from "/assets/videos/ireliaProjetoPrestigio.mp4";
@@ -77,7 +77,7 @@ export const volibear = volibearimg;
 export const senna = sennaimg;
 
 export const ireliaSA = ireliaSplashArt;
-//export const ireliaLG = ireliaLaminasGelidas;
+export const ireliaLG = ireliaLaminasGelidas;
 //export const ireliaAV = ireliaAviadora;
 //export const ireliaLN = ireliaLaminasNoturnas;
 //export const ireliaPP = ireliaProjetoPrestigio;

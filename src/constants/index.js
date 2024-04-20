@@ -20,7 +20,7 @@ import {
     highlightTwelfthVideo,
     irelia,
     //ireliaAV,
-    //ireliaLG,
+    ireliaLG,
     //ireliaLN,
     //ireliaPP,
     ireliaSA,
@@ -126,7 +126,7 @@ import {
       id: 2,
       title: "Irelia Lâminas Gélidas",
       color: ["#5b8ae0"],
-      //video: ireliaLG,
+      video: ireliaLG,
       type: "video",
       character: 'irelia'
     },
