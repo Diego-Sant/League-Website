@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { highlightsSlides } from "../constants"
 import gsap from "gsap";
-//import { pauseImg, playImg, replayImg } from "../utils";
+import { pauseImg, playImg, replayImg } from "../utils";
 import { useGSAP } from "@gsap/react";
 
 const VideoCarousel = () => {
@@ -177,7 +177,7 @@ const VideoCarousel = () => {
             <div key={list.id} id="slider" className="sm:pr-20 pr-10">
                 <div className="video-carousel_container">
                     <div className="w-full h-full flex-center rounded-3xl overflow-hidden">
-                        {/*<video id="video" playsInline={true} 
+                        <video id="video" playsInline={true} 
                         preload="auto" muted
                         className="pointer-events-none"
                         ref={(el) => (videoRef.current[i] = el)}
@@ -186,7 +186,7 @@ const VideoCarousel = () => {
                         onLoadedMetadata={(e) => handleLoadedMetaData(i, e)}
                         >
                             <source src={list.video} type="video/mp4"/>
-                        </video>*/}
+                        </video>
                     </div>
 
                     <div className="absolute 2xl:top-12 xl:top-24 lg:top-32 md:top-44 sm:top-32 top-20 left-[5%] z-10">
@@ -210,9 +210,9 @@ const VideoCarousel = () => {
             ))}
         </div>
         <button className="control-btn sm:mt-0 mt-4" onClick={isLastVideo ? () => handleProcess('video-reset') : !isPlaying ? () => handleProcess('play') : () => handleProcess('pause')}>
-            {/*<img src={isLastVideo ? replayImg : !isPlaying ? playImg : pauseImg} 
+            <img src={isLastVideo ? replayImg : !isPlaying ? playImg : pauseImg} 
             alt={isLastVideo ? "Reiniciar o vídeo" : !isPlaying ? "Iniciar vídeo" : "Pausar vídeo"}
-            />*/}
+            />
         </button>
       </div>
     </>
