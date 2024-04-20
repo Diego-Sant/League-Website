@@ -39,6 +39,12 @@ import aurelionDragaodaTormenta from "/assets/videos/aurelionDragaodaTormenta.mp
 import aurelionTintaSombria from "/assets/videos/aurelionTintaSombria.mp4";
 import aurelionProtetordePorcelana from "/assets/videos/aurelionProtetordePorcelana.mp4";
 
+import rivenSplashArt from "/assets/images/rivenSplashArt.jpg";
+import rivenEmissariadaLuz from "/assets/videos/rivenEmissariadaLuz.mp4";
+import rivenCoelhadeBatalhaPrime from "/assets/videos/rivenCoelhadeBatalhaPrime.mp4";
+import rivenEspadaValorosadePrestigio from "/assets/videos/rivenEspadaValorosadePrestigio.mp4";
+import rivenPactoQuebrado from "/assets/videos/rivenPactoQuebrado.mp4";
+
 import lol from "/assets/images/lol.svg";
 import search from "/assets/images/search.svg";
 import locale from "/assets/images/locale.svg";
@@ -87,6 +93,12 @@ export const aurelionSC = aurelionSenhordasCinzas;
 export const aurelionDT = aurelionDragaodaTormenta;
 export const aurelionTS = aurelionTintaSombria;
 export const aurelionPP = aurelionProtetordePorcelana;
+
+export const rivenSA = rivenSplashArt;
+export const rivenEL = rivenEmissariadaLuz;
+export const rivenCB = rivenCoelhadeBatalhaPrime;
+export const rivenEV = rivenEspadaValorosadePrestigio;
+export const rivenPQ = rivenPactoQuebrado;
 
 export const lolImg = lol;
 export const searchImg = search;

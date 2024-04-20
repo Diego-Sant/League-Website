@@ -28,16 +28,11 @@ const Model = () => {
     };
 
     useEffect(() => {
-        // Reseta o estado do vídeo quando o modelo selecionado muda
         setVideoReady(false);
     }, [selectedModel]);
 
     const handleVideoLoaded = () => {
         setVideoReady(true);
-    };
-
-    const handleVideoError = () => {
-        // Trate erros de carregamento do vídeo aqui, se necessário
     };
 
     return (
@@ -69,7 +64,6 @@ const Model = () => {
                                     className={`absolute inset-0 object-cover ${!videoReady ? 'hidden' : ''}`} 
                                     key={selectedModel.id} 
                                     onLoadedData={handleVideoLoaded}
-                                    onError={handleVideoError}
                                 >
                                     <source src={selectedModel.video} type="video/mp4" />
                                 </video>

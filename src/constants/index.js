@@ -26,6 +26,11 @@ import {
     ireliaSA,
     pyke,
     riven,
+    rivenCB,
+    rivenEL,
+    rivenEV,
+    rivenPQ,
+    rivenSA,
     senna,
     volibear,
   } from "../utils";
@@ -198,30 +203,40 @@ import {
       id: 11,
       title: "Riven",
       color: ["#5bc96a"],
+      img: rivenSA,
+      type: "image",
       character: 'riven'
     },
     {
       id: 12,
       title: "Riven Emissária da Luz",
       color: ["#47ecff"],
+      video: rivenEL,
+      type: "video",
       character: 'riven'
     },
     {
       id: 13,
       title: "Riven Coelha de Batalha Prime",
       color: ["#3f5929"],
+      video: rivenCB,
+      type: "video",
       character: 'riven'
     },
     {
       id: 14,
       title: "Riven Espada Valorosa de Prestígio",
       color: ["#b28d59"],
+      video: rivenEV,
+      type: "video",
       character: 'riven'
     },
     {
       id: 15,
       title: "Riven Pacto Quebrado",
       color: ["#e14549"],
+      video: rivenPQ,
+      type: "video",
       character: 'riven'
     },
     {
