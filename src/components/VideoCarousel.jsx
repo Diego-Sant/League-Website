@@ -16,6 +16,7 @@ const VideoCarousel = () => {
         isLastVideo: false,
         isPlaying: false
     })
+    
 
     const idToColorMap = {
         0: '#9c3725',
