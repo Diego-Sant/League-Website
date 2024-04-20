@@ -29,15 +29,15 @@ import sennaimg from "/assets/images/sennaSquare.png";
 
 import ireliaSplashArt from "/assets/images/ireliaSplashArt.jpg";
 import ireliaLaminasGelidas from "/assets/videos/ireliaLaminasGelidas.mp4";
-//import ireliaAviadora from "/assets/videos/ireliaAviadora.mp4";
-//import ireliaLaminasNoturnas from "/assets/videos/ireliaLaminasNoturnas.mp4";
-//import ireliaProjetoPrestigio from "/assets/videos/ireliaProjetoPrestigio.mp4";
+import ireliaAviadora from "/assets/videos/ireliaAviadora.mp4";
+import ireliaLaminasNoturnas from "/assets/videos/ireliaLaminasNoturnas.mp4";
+import ireliaProjetoPrestigio from "/assets/videos/ireliaProjetoPrestigio.mp4";
 
 import aurelionSplashArt from "/assets/images/aurelionSplashArt.jpg";
-//import aurelionSenhordasCinzas from "/assets/videos/aurelionSenhordasCinzas.mp4";
-//import aurelionDragaodaTormenta from "/assets/videos/aurelionDragaodaTormenta.mp4";
-//import aurelionTintaSombria from "/assets/videos/aurelionTintaSombria.mp4";
-//import aurelionProtetordePorcelana from "/assets/videos/aurelionProtetordePorcelana.mp4";
+import aurelionSenhordasCinzas from "/assets/videos/aurelionSenhordasCinzas.mp4";
+import aurelionDragaodaTormenta from "/assets/videos/aurelionDragaodaTormenta.mp4";
+import aurelionTintaSombria from "/assets/videos/aurelionTintaSombria.mp4";
+import aurelionProtetordePorcelana from "/assets/videos/aurelionProtetordePorcelana.mp4";
 
 import lol from "/assets/images/lol.svg";
 import search from "/assets/images/search.svg";
@@ -78,15 +78,15 @@ export const senna = sennaimg;
 
 export const ireliaSA = ireliaSplashArt;
 export const ireliaLG = ireliaLaminasGelidas;
-//export const ireliaAV = ireliaAviadora;
-//export const ireliaLN = ireliaLaminasNoturnas;
-//export const ireliaPP = ireliaProjetoPrestigio;
+export const ireliaAV = ireliaAviadora;
+export const ireliaLN = ireliaLaminasNoturnas;
+export const ireliaPP = ireliaProjetoPrestigio;
 
 export const aurelionSA = aurelionSplashArt;
-//export const aurelionSC = aurelionSenhordasCinzas;
-//export const aurelionDT = aurelionDragaodaTormenta;
-//export const aurelionTS = aurelionTintaSombria;
-//export const aurelionPP = aurelionProtetordePorcelana;
+export const aurelionSC = aurelionSenhordasCinzas;
+export const aurelionDT = aurelionDragaodaTormenta;
+export const aurelionTS = aurelionTintaSombria;
+export const aurelionPP = aurelionProtetordePorcelana;
 
 export const lolImg = lol;
 export const searchImg = search;
