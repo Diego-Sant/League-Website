@@ -25,6 +25,11 @@ import {
     ireliaPP,
     ireliaSA,
     pyke,
+    pykeGC,
+    pykeLS,
+    pykePO,
+    pykeSA,
+    pykeSF,
     riven,
     rivenCB,
     rivenEL,
@@ -32,7 +37,17 @@ import {
     rivenPQ,
     rivenSA,
     senna,
+    sennaBI,
+    sennaEL,
+    sennaFE,
+    sennaSA,
+    sennaTD,
     volibear,
+    volibearDD,
+    volibearNA,
+    volibearSA,
+    volibearST,
+    volibearTS,
   } from "../utils";
   
   export const navLists = ['O JOGO', 'CAMPEÕES', 'NOTÍCIAS', 'NOTAS DAS ATUALIZAÇÕES', 'COMUNIDADE', 'ESPORTS', 'UNIVERSO', 'SUPORTE', 'MAIS']
@@ -243,90 +258,120 @@ import {
       id: 16,
       title: "Pyke",
       color: ["#163537"],
+      img: pykeSA,
+      type: "image",
       character: 'pyke'
     },
     {
       id: 17,
       title: "Pyke Lua Sangrenta",
       color: ["#fe3137"],
+      video: pykeLS,
+      type: "video",
       character: 'pyke'
     },
     {
       id: 18,
       title: "Pyke PsyOps",
       color: ["#393a59"],
+      video: pykePO,
+      type: "video",
       character: 'pyke'
     },
     {
       id: 19,
       title: "Pyke Guerreiro das Cinzas",
       color: ["#dfe1f6"],
+      video: pykeGC,
+      type: "video",
       character: 'pyke'
     },
     {
       id: 20,
       title: "Pyke Soul Fighter de Prestígio",
       color: ["#e9a528"],
+      video: pykeSF,
+      type: "video",
       character: 'pyke'
     },
     {
       id: 21,
       title: "Volibear",
       color: ["#dee7f4"],
+      img: volibearSA,
+      type: "image",
       character: 'volibear'
     },
     {
       id: 22,
       title: "Volibear Senhor do Trovão",
       color: ["#2d2838"],
+      video: volibearST,
+      type: "video",
       character: 'volibear'
     },
     {
       id: 23,
       title: "Volibear Dragão da Dualidade de Prestígio",
       color: ["#ec6381"],
+      video: volibearDD,
+      type: "video",
       character: 'volibear'
     },
     {
       id: 24,
       title: "Volibear Tinta Sombria",
       color: ["#e77e2d"],
+      video: volibearTS,
+      type: "video",
       character: 'volibear'
     },
     {
       id: 25,
       title: "Volibear Nevasca do Ártico",
       color: ["#687cb6"],
+      video: volibearNA,
+      type: "video",
       character: 'volibear'
     },
     {
       id: 26,
       title: "Senna",
       color: ["#9cdee0"],
+      img: sennaSA,
+      type: "image",
       character: 'senna'
     },
     {
       id: 27,
       title: "Senna True Damage de Prestígio",
       color: ["#dbe4ee"],
+      video: sennaTD,
+      type: "video",
       character: 'senna'
     },
     {
       id: 28,
       title: "Senna Eclipse Lunar de Prestígio",
       color: ["#5e51ad"],
+      video: sennaEL,
+      type: "video",
       character: 'senna'
     },
     {
       id: 29,
       title: "Senna Feiticeira",
       color: ["#eb5cf4"],
+      video: sennaFE,
+      type: "video",
       character: 'senna'
     },
     {
       id: 30,
       title: "Senna Benção do Inverno",
       color: ["#52d6fd"],
+      video: sennaBI,
+      type: "video",
       character: 'senna'
     },
   ];

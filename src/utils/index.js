@@ -43,6 +43,24 @@ import rivenCoelhadeBatalhaPrime from "/assets/videos/rivenCoelhadeBatalhaPrime.
 import rivenEspadaValorosadePrestigio from "/assets/videos/rivenEspadaValorosadePrestigio.mp4";
 import rivenPactoQuebrado from "/assets/videos/rivenPactoQuebrado.mp4";
 
+import pykeSplashArt from "/assets/images/pykeSplashArt.jpg";
+import pykeLuaSangrenta from "/assets/videos/pykeLuaSangrenta.mp4";
+import pykePsyOps from "/assets/videos/pykePsyOps.mp4";
+import pykeSoulFighterPrestigio from "/assets/videos/pykeSoulFighterPrestigio.mp4";
+import pykeGuerreirodasCinzas from "/assets/videos/pykeGuerreirodasCinzas.mp4";
+
+import volibearSplashArt from "/assets/images/volibearSplashArt.jpg";
+import volibearDragaodaDualidadedePrestigio from "/assets/videos/volibearDragaodaDualidadedePrestigio.mp4";
+import volibearNevascadoArtico from "/assets/videos/volibearNevascadoArtico.mp4";
+import volibearSenhordoTrovao from "/assets/videos/volibearSenhordoTrovao.mp4";
+import volibearTintaSombria from "/assets/videos/volibearTintaSombria.mp4";
+
+import sennaSplashArt from "/assets/images/sennaSplashArt.jpg";
+import sennaBencaodoInverno from "/assets/videos/sennaBencaodoInverno.mp4";
+import sennaEclipseLunardePrestigio from "/assets/videos/sennaEclipseLunardePrestigio.mp4";
+import sennaFeiticeira from "/assets/videos/sennaFeiticeira.mp4";
+import sennaTrueDamagedePrestigio from "/assets/videos/sennaTrueDamagedePrestigio.mp4";
+
 import lol from "/assets/images/lol.svg";
 import search from "/assets/images/search.svg";
 import locale from "/assets/images/locale.svg";
@@ -90,6 +108,24 @@ export const rivenEL = rivenEmissariadaLuz;
 export const rivenCB = rivenCoelhadeBatalhaPrime;
 export const rivenEV = rivenEspadaValorosadePrestigio;
 export const rivenPQ = rivenPactoQuebrado;
+
+export const pykeSA = pykeSplashArt;
+export const pykeLS = pykeLuaSangrenta;
+export const pykePO = pykePsyOps;
+export const pykeSF = pykeSoulFighterPrestigio;
+export const pykeGC = pykeGuerreirodasCinzas;
+
+export const volibearSA = volibearSplashArt;
+export const volibearDD = volibearDragaodaDualidadedePrestigio;
+export const volibearNA = volibearNevascadoArtico;
+export const volibearST = volibearSenhordoTrovao;
+export const volibearTS = volibearTintaSombria;
+
+export const sennaSA = sennaSplashArt;
+export const sennaBI = sennaBencaodoInverno;
+export const sennaEL = sennaEclipseLunardePrestigio;
+export const sennaFE = sennaFeiticeira;
+export const sennaTD = sennaTrueDamagedePrestigio;
 
 export const lolImg = lol;
 export const searchImg = search;
