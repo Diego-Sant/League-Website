@@ -3,16 +3,16 @@ import { useGSAP } from '@gsap/react';
 
 import { useEffect, useState } from 'react';
 
-import { heroVideo, smallHeroVideo } from '../utils';
+//import { heroVideo, smallHeroVideo } from '../utils';
 
 const Hero = () => {
-  const [videoSrc, setVideoSrc] = useState(window.innerWidth < 760 ? smallHeroVideo : heroVideo)
+  //const [videoSrc, setVideoSrc] = useState(window.innerWidth < 760 ? smallHeroVideo : heroVideo)
   
   const handleVideoSrcSet = () => {
     if(window.innerWidth < 760) {
-      setVideoSrc(smallHeroVideo)
+      //setVideoSrc(smallHeroVideo)
     } else {
-      setVideoSrc(heroVideo)
+      //setVideoSrc(heroVideo)
     }
   }
 
@@ -42,9 +42,9 @@ const Hero = () => {
       <div className="h-5/6 w-full flex-center flex-col">
         <p id="hero" className="hero-title">LEAGUE OF LEGENDS</p>
         <div className='md:w-10/12 w-9/12'>
-          <video autoPlay muted playsInline={true} loop key={videoSrc} className='pointer-events-none rounded-md border border-gray-200/60 shadow-lg shadow-gray-950/60'>
+          {/*<video autoPlay muted playsInline={true} loop key={videoSrc} className='pointer-events-none rounded-md border border-gray-200/60 shadow-lg shadow-gray-950/60'>
             <source src={videoSrc} type='video/mp4' />
-          </video>
+          </video>*/}
         </div>
       </div>
 
