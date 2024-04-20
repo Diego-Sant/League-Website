@@ -29,12 +29,14 @@ canvas {
   max-width: 1300px;
 }
 
+/*
 @layer base {
   @font-face {
     font-family: 'League';
     src: url(/public/assets/font/League.otf);
   }
 }
+*/
 
 .hero-title, .textList-title {
   font-family: 'League', sans-serif;
