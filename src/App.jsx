@@ -3,10 +3,11 @@ import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import Model from './components/Model'
 
-const App = () => {
+import * as Sentry from '@sentry/react'
 
+const App = () => {
   return (
-    <main className="bg-[#111111]">
+    <main className="bg-[#b8a3a3]">
       <Navbar />
       <Hero />
       <Highlights />
@@ -15,4 +16,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Sentry.withProfiler(App);
