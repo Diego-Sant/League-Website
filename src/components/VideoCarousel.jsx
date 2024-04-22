@@ -3,6 +3,7 @@ import { highlightsSlides } from "../constants"
 import gsap from "gsap";
 import { pauseImg, playImg, replayImg } from "../utils";
 import { useGSAP } from "@gsap/react";
+import { animateWithGsap } from "../utils/animations";
 
 const VideoCarousel = () => {
     const videoRef = useRef([]);
@@ -59,11 +60,10 @@ const VideoCarousel = () => {
             }
         })
 
-        gsap.to('#textList', {
+        animateWithGsap('#textList', {
             opacity: 1,
             y: -20,
-            duration: 1,
-            stagger: 0.25
+            duration: 1
         })
     }, [isEnd, videoId])
 

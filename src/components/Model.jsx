@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { useState, useEffect } from "react"
 import { characters, models } from "../constants";
+import { animateWithGsap } from "../utils/animations";
 
 const Model = () => {
     const [selectedCharacter, setSelectedCharacter] = useState('irelia');
@@ -9,7 +10,7 @@ const Model = () => {
     const [videoReady, setVideoReady] = useState(false);
 
     useGSAP(() => {
-        gsap.to('#heading', {
+        animateWithGsap('#heading', {
             y: 0,
             opacity: 1
         })

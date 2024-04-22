@@ -61,6 +61,10 @@ import sennaEclipseLunardePrestigio from "/assets/videos/sennaEclipseLunardePres
 import sennaFeiticeira from "/assets/videos/sennaFeiticeira.mp4";
 import sennaTrueDamagedePrestigio from "/assets/videos/sennaTrueDamagedePrestigio.mp4";
 
+import horizontalVideo from "/assets/videos/horizontal.mp4";
+import verticalVideo1 from "/assets/videos/vertical1.mp4";
+import verticalVideo2 from "/assets/videos/vertical2.mp4";
+
 import lol from "/assets/images/lol.svg";
 import search from "/assets/images/search.svg";
 import locale from "/assets/images/locale.svg";
@@ -126,6 +130,10 @@ export const sennaBI = sennaBencaodoInverno;
 export const sennaEL = sennaEclipseLunardePrestigio;
 export const sennaFE = sennaFeiticeira;
 export const sennaTD = sennaTrueDamagedePrestigio;
+
+export const horizontal = horizontalVideo;
+export const vertical1 = verticalVideo1;
+export const vertical2 = verticalVideo2;
 
 export const lolImg = lol;
 export const searchImg = search;

@@ -5,10 +5,11 @@ import { FaRegPlayCircle } from "react-icons/fa"
 import { MdArrowOutward } from "react-icons/md"
 
 import VideoCarousel from "./VideoCarousel"
+import { animateWithGsap } from "../utils/animations"
 
 const Highlights = () => {
   useGSAP(() => {
-    gsap.to('#title', {
+    animateWithGsap('#title', {
       opacity: 1,
       y: 0
     })
