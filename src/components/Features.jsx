@@ -55,7 +55,7 @@ const Features = () => {
                 )}
             </div>
 
-            <div className='flex flex-col md:flex-row gap-x-4'>
+            <div className='flex flex-col md:flex-row md:gap-x-4 mr-4 sm:mr-0'>
 
                 <div className='relative h-[65vh] w-full flex' 
                     onMouseEnter={() => setIsHoveredVertical1(true)}

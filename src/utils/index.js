@@ -71,6 +71,12 @@ import locale from "/assets/images/locale.svg";
 import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
+import riot from "/assets/images/riot.svg";
+import pg12 from "/assets/images/12.png";
+
+import logo from "/assets/images/logo.png";
+import frame from "/assets/images/frame.png";
+import frameVid from "/assets/videos/frame.mp4";
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
@@ -141,3 +147,9 @@ export const localeImg = locale;
 export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
+export const riotLogo = riot;
+export const pg12Rating = pg12;
+
+export const logoImg = logo;
+export const frameImg = frame;
+export const frameVideo = frameVid;

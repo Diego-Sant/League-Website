@@ -385,10 +385,6 @@ import {
     { img: senna, value: "senna" },
   ];
   
-  export const footerLinks = [
-    "Privacy Policy",
-    "Terms of Use",
-    "Sales Policy",
-    "Legal",
-    "Site Map",
-  ];
+  export const footerLinks = ["SOBRE LEAGUE OF LEGENDS", "AJUDE-NOS A MELHORAR", "STATUS DE SERVIÇO", "SUPORTE", "TORNEIOS INDEPENDENTES", "BAIXE O APLICATIVO DE CELULAR RIOT MOBILE"];
+
+  export const footerLinks2 = ["EULA", "AVISO DE PRIVACIDADE", "TERMOS DE USO", "PREFERÊNCIAS DE COOKIES"];
