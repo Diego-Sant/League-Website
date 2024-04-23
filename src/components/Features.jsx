@@ -15,6 +15,10 @@ const Features = () => {
         animateWithGsap('#features_title', {
             y: 0,
             opacity: 1
+        }),
+        animateWithGsap('#text-description', {
+            x: -32,
+            opacity: 1
         })
     }, [])
 
@@ -27,16 +31,16 @@ const Features = () => {
       </div>
 
       <div className='flex flex-col justify-center items-center overflow-hidden'>
-        <div className='mt-32 mb-24'>
-            <h2 className='text-xl lg:text-3xl flex justify-start'>ARAM, Arena, TeamFight Tactics e mais!</h2>
+        <div className='mt-24 mb-8 pl-32'>
+            <h2 id='text-description' className='text-xl lg:text-3xl opacity-0'>ARAM, Arena, TeamFight Tactics e mais!</h2>
         </div>
 
-        <div className='flex-center flex-col sm:px-10'>
+        <div className='flex-center flex-col sm:px-10 gap-y-4'>
             <div className='relative h-[50vh] w-full flex items-center' 
                 onMouseEnter={() => setIsHoveredHorizontal(true)}
                 onMouseLeave={() => setIsHoveredHorizontal(false)}
             >
-                <video playsInline 
+                <video playsInline loop 
                     id='exploreVideo' 
                     className='w-full h-full object-cover object-center ' 
                     preload='none' muted autoPlay ref={videoRef}
@@ -51,13 +55,13 @@ const Features = () => {
                 )}
             </div>
 
-            <div className='flex flex-col md:flex-row'>
+            <div className='flex flex-col md:flex-row gap-x-4'>
 
-                <div className='relative h-[70vh] w-full flex' 
+                <div className='relative h-[65vh] w-full flex' 
                     onMouseEnter={() => setIsHoveredVertical1(true)}
                     onMouseLeave={() => setIsHoveredVertical1(false)}
                 >
-                    <video playsInline
+                    <video playsInline loop
                         className='w-full h-full object-cover object-center' 
                         preload='none' muted autoPlay ref={videoRef}
                     >
@@ -71,11 +75,11 @@ const Features = () => {
                     )}
                 </div>
 
-                <div className='relative h-[70vh] w-full flex' 
+                <div className='relative h-[65vh] w-full flex' 
                     onMouseEnter={() => setIsHoveredVertical2(true)}
                     onMouseLeave={() => setIsHoveredVertical2(false)}
                 >
-                    <video playsInline
+                    <video playsInline loop
                         className='w-full h-full object-cover object-center' 
                         preload='none' muted autoPlay ref={videoRef}
                     >
